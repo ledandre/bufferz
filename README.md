@@ -17,5 +17,6 @@ Com o código acima, o buffer está pronto para receber objetos até o limite de
 MyObject aObject = ...;
 buffer.add(aObject)`
 ```
+> Obs.: O método passado no `execute` deve obrigatoriamente receber uma Collection do tipo de dados que está sendo armazenado no buffer, e deve possuir um retorno (isso será melhorado em uma futura versão).
 
 Qualquer exceção do tipo `SQLException` será tratada pelo método `handleSQLException()`. Caso ocorra exceção de outro tipo, e/ou no for declarado nenhum tratamento de exceção, a mesma será somente logada pelo log4j no nível `error`.
