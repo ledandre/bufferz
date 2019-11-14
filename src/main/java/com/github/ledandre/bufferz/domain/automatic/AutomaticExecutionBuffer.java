@@ -1,4 +1,4 @@
-package eu.leandro.andre.domain.automatic;
+package com.github.ledandre.bufferz.domain.automatic;
 
 import static java.util.Optional.ofNullable;
 
@@ -15,7 +15,7 @@ import java.util.function.Function;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import eu.leandro.andre.domain.Buffer;
+import com.github.ledandre.bufferz.domain.Buffer;
 
 public class AutomaticExecutionBuffer <T> implements Buffer<T> {
     private static final Logger LOGGER = LoggerFactory.getLogger(AutomaticExecutionBuffer.class);

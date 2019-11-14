@@ -1,4 +1,4 @@
-package eu.leandro.andre.domain;
+package com.github.ledandre.bufferz.domain;
 
 import java.util.Collection;
 

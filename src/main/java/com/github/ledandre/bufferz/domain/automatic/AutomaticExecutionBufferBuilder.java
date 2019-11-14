@@ -1,4 +1,4 @@
-package eu.leandro.andre.domain.automatic;
+package com.github.ledandre.bufferz.domain.automatic;
 
 import java.util.Collection;
 import java.util.HashMap;

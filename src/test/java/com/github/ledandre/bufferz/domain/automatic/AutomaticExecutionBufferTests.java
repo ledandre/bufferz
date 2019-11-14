@@ -1,4 +1,4 @@
-package eu.leandro.andre.domain.automatic;
+package com.github.ledandre.bufferz.domain.automatic;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
