@@ -1,5 +1,5 @@
 # bufferz
-Ferramentas de suporte a programação utilizando buffer de objetos
+Projeto criado para "bufferizar" objetos antes de serem consumidos.
 
 ### Buffer de execução automática
 
